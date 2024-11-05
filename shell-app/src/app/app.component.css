@@ -1,80 +1,77 @@
 :host {
-  display: flex;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
-.app-layout {
-  height: 100vh;
+nz-header {
+  background: #F5DAD2;
+  /* position: fixed;
+  width: 100%;
+  z-index: 100; */
 }
 
-.menu-sidebar {
-  position: relative;
-  z-index: 10;
-  min-height: 100vh;
-  box-shadow: 2px 0 6px rgba(0,21,41,.35);
-}
-
-.header-trigger {
-  height: 64px;
-  padding: 20px 24px;
-  font-size: 20px;
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 20px;
   cursor: pointer;
-  transition: all .3s,padding 0s;
+  transition: color 0.3s;
+  color: black;
 }
 
 .trigger:hover {
   color: #1890ff;
 }
 
-.sidebar-logo {
-  position: relative;
-  height: 64px;
-  padding-left: 24px;
-  overflow: hidden;
-  line-height: 64px;
-  background: #001529;
-  transition: all .3s;
+nz-footer {
+  line-height: 1;
 }
 
-.sidebar-logo img {
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-  vertical-align: middle;
-}
-
-.sidebar-logo h1 {
-  display: inline-block;
-  margin: 0 0 0 20px;
+nz-sider {
+  background-color: #fff;
   color: #fff;
-  font-weight: 600;
-  font-size: 14px;
-  font-family: Avenir,Helvetica Neue,Arial,Helvetica,sans-serif;
-  vertical-align: middle;
+  min-height: 100vh;
 }
 
-nz-header {
-  padding: 0;
-  width: 100%;
-  z-index: 2;
+nz-layout {
+  margin-bottom: 48px;
+  width: 100vw;
+  display: flex;
 }
 
-.app-header {
-  position: relative;
-  height: 64px;
-  padding: 0;
-  background: #fff;
-  box-shadow: 0 1px 4px rgba(0,21,41,.08);
+nz-layout nz-layout,
+nz-layout:last-child {
+  margin: 0;
 }
 
-nz-content {
-  margin: 24px;
+.paw {
+  width: 40px;
+  margin-left: -10px;
+  cursor: pointer;
 }
 
-.inner-content {
-  padding: 24px;
-  background: #fff;
-  height: 100%;
+.slogan {
+  line-height: 100%;
+  margin-top: 15px;
+  margin-right: 50px;
+  font-family: monospace;
+}
+
+.searchbox {
+  border-radius: 10px;
+  max-width: 200px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btnRole {
+  margin-bottom: 30px;
+  background-color: #f5dad2;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
 }

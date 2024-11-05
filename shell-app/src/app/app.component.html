@@ -1,54 +1,80 @@
-<nz-layout class="app-layout">
-  <nz-sider class="menu-sidebar"
-    nzCollapsible
-    nzWidth="256px"
-    nzBreakpoint="md"
-    [(nzCollapsed)]="isCollapsed"
-    [nzTrigger]="null">
-    <div class="sidebar-logo">
-      <a href="https://ng.ant.design/" target="_blank">
-        <img src="https://ng.ant.design/assets/img/logo.svg" alt="logo">
-        <h1>Ant Design Of Angular</h1>
-      </a>
-    </div>
-    <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
-      <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">
-        <ul>
-          <li nz-menu-item nzMatchRouter>
-            <a routerLink="/welcome">Welcome</a>
-          </li>
-          <li nz-menu-item nzMatchRouter>
-            <a>Monitor</a>
-          </li>
-          <li nz-menu-item nzMatchRouter>
-            <a>Workplace</a>
-          </li>
-        </ul>
-      </li>
-      <li nz-submenu nzOpen nzTitle="Form" nzIcon="form">
-        <ul>
-          <li nz-menu-item nzMatchRouter>
-            <a>Basic Form</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </nz-sider>
+<nz-layout>
+  <!-- Header -->
+  <nz-header>
+    <nz-row style="display: flex; flex-wrap: nowrap; margin-top: 10px">
+      <img src="assets/paw.png" alt="paw" class="paw">
+      <p class="slogan">Meow~</p>
+      <nz-input-group [nzSuffix]="suffixIconSearch" class="searchbox">
+        <input type="text" nz-input placeholder="Search" />
+      </nz-input-group>
+      <ng-template #suffixIconSearch>
+        <span nz-icon nzType="search"></span>
+      </ng-template>
+    </nz-row>
+  </nz-header>
+
   <nz-layout>
-    <nz-header>
-      <div class="app-header">
-        <span class="header-trigger" (click)="isCollapsed = !isCollapsed">
-            <span class="trigger"
-               nz-icon
-               [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
-            ></span>
-        </span>
-      </div>
-    </nz-header>
-    <nz-content>
-      <div class="inner-content">
+    <!-- Sidebar -->
+    <nz-sider
+      nzCollapsible
+      [(nzCollapsed)]="isCollapsed"
+      [nzTrigger]="null"
+      class="sidebar"
+    >
+      <span
+        class="trigger"
+        nz-icon
+        [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
+        (click)="isCollapsed = !isCollapsed"
+      ></span>
+      <ul
+        nz-menu
+        nzMode="inline"
+        style="background-color: #fff;"
+      >
+        <li nz-submenu nzTitle="Cat" nzIcon="heart">
+          <ul
+            style="
+              background-color: #fff;
+              margin: 0;
+              padding: 0;
+              border: none;
+            "
+          >
+            <li nz-menu-item>Tuna</li>
+            <li nz-menu-item>Asuka</li>
+            <li nz-menu-item>Orion</li>
+          </ul>
+        </li>
+        <li nz-submenu nzTitle="Adopted" nzIcon="like">
+          <ul>
+            <li nz-menu-item>Win</li>
+            <li nz-menu-item>Mimi</li>
+          </ul>
+        </li>
+        <li nz-menu-item>
+          <span nz-icon nzType="read"></span>
+          <span>News</span>
+        </li>
+      </ul>
+    </nz-sider>
+
+    <nz-layout>
+      <!-- Content -->
+      <div style="flex: 1; margin: 30px;">
         <router-outlet></router-outlet>
       </div>
-    </nz-content>
+
+      <!-- Footer -->
+      <nz-footer
+        >Made with 🖤 by
+        <a
+          href="https://www.instagram.com/sugaringbananaa_/"
+          style="color: #000; text-decoration: underline"
+          target="_blank"
+          >sugaringbananaa
+        </a>
+      </nz-footer>
+    </nz-layout>
   </nz-layout>
 </nz-layout>
