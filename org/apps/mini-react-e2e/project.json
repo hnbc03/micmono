@@ -1,0 +1,9 @@
+{
+  "name": "mini-react-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/mini-react-e2e/src",
+  "implicitDependencies": ["mini-react"],
+  "// targets": "to see all targets run: nx show project mini-react-e2e --web",
+  "targets": {}
+}
