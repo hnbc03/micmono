@@ -95,6 +95,9 @@
         "style": "css",
         "linter": "eslint"
       }
+    },
+    "@nx/angular:component": {
+      "style": "css"
     }
   }
 }

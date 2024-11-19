@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx run-many --target=build --all",
+    "startTime": "2024-11-14T06:43:34.305Z",
+    "endTime": "2024-11-14T06:43:35.370Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "mini-angular:build:production",
+      "target": "build",
+      "projectName": "mini-angular",
+      "hash": "4890659290241049296",
+      "startTime": "2024-11-14T06:43:34.321Z",
+      "endTime": "2024-11-14T06:43:35.314Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "shell:build:production",
+      "target": "build",
+      "projectName": "shell",
+      "hash": "6661214840907851256",
+      "startTime": "2024-11-14T06:43:34.321Z",
+      "endTime": "2024-11-14T06:43:35.364Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: join(__dirname, '../../dist/apps/mini-react'),
     publicPath: 'auto',
+    scriptType: 'module',
   },
   devServer: {
     port: 3000,
@@ -14,6 +15,11 @@ module.exports = {
       index: '/index.html',
       disableDotRule: true,
       htmlAcceptHeaders: ['text/html', 'application/xhtml+xml'],
+    },
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH, OPTIONS',
+      'Access-Control-Allow-Headers': 'X-Requested-With, content-type, Authorization',
     },
   },
   plugins: [

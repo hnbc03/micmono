@@ -1,0 +1,396 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.1.0",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "mini-angular-e2e": [
+        {
+          "file": "org/apps/mini-angular-e2e/eslint.config.js",
+          "hash": "4703616457710285801"
+        },
+        {
+          "file": "org/apps/mini-angular-e2e/playwright.config.ts",
+          "hash": "1547272936376281741"
+        },
+        {
+          "file": "org/apps/mini-angular-e2e/project.json",
+          "hash": "16110145654645369923"
+        },
+        {
+          "file": "org/apps/mini-angular-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "org/apps/mini-angular-e2e/tsconfig.json",
+          "hash": "18231654798499725131"
+        }
+      ],
+      "mini-react": [
+        {
+          "file": "org/apps/mini-react/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "org/apps/mini-react/eslint.config.js",
+          "hash": "18206053935892145363"
+        },
+        {
+          "file": "org/apps/mini-react/jest.config.ts",
+          "hash": "911701510000351631"
+        },
+        {
+          "file": "org/apps/mini-react/project.json",
+          "hash": "5896591672498799307"
+        },
+        {
+          "file": "org/apps/mini-react/src/app/app.module.css",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "org/apps/mini-react/src/app/app.spec.tsx",
+          "hash": "15796162770135887607"
+        },
+        {
+          "file": "org/apps/mini-react/src/app/app.tsx",
+          "hash": "4533262489659054922"
+        },
+        {
+          "file": "org/apps/mini-react/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "org/apps/mini-react/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "org/apps/mini-react/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "org/apps/mini-react/src/index.html",
+          "hash": "1091034269393835678"
+        },
+        {
+          "file": "org/apps/mini-react/src/main.tsx",
+          "hash": "763379880219152615"
+        },
+        {
+          "file": "org/apps/mini-react/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "org/apps/mini-react/tsconfig.app.json",
+          "hash": "10514678202960682525"
+        },
+        {
+          "file": "org/apps/mini-react/tsconfig.json",
+          "hash": "9850153468027031608"
+        },
+        {
+          "file": "org/apps/mini-react/tsconfig.spec.json",
+          "hash": "11378287594513225419"
+        },
+        {
+          "file": "org/apps/mini-react/webpack.config.js",
+          "hash": "9546574434641293054"
+        }
+      ],
+      "shell": [
+        {
+          "file": "org/apps/shell/eslint.config.js",
+          "hash": "12883900717377691005"
+        },
+        {
+          "file": "org/apps/shell/jest.config.ts",
+          "hash": "13626040895969330464"
+        },
+        {
+          "file": "org/apps/shell/module-federation.config.ts",
+          "hash": "14995952729408567860"
+        },
+        {
+          "file": "org/apps/shell/project.json",
+          "hash": "5833959465162557884"
+        },
+        {
+          "file": "org/apps/shell/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "org/apps/shell/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "org/apps/shell/src/app/app.component.html",
+          "hash": "9831153896592099465"
+        },
+        {
+          "file": "org/apps/shell/src/app/app.component.spec.ts",
+          "hash": "339126730406384442"
+        },
+        {
+          "file": "org/apps/shell/src/app/app.component.ts",
+          "hash": "5264088107236658356"
+        },
+        {
+          "file": "org/apps/shell/src/app/app.config.ts",
+          "hash": "6137170128205633588"
+        },
+        {
+          "file": "org/apps/shell/src/app/app.routes.ts",
+          "hash": "10582169523822127526"
+        },
+        {
+          "file": "org/apps/shell/src/app/nx-welcome.component.ts",
+          "hash": "1981600256412176277"
+        },
+        {
+          "file": "org/apps/shell/src/bootstrap.ts",
+          "hash": "16635586463787978962"
+        },
+        {
+          "file": "org/apps/shell/src/index.html",
+          "hash": "6118171675619996744"
+        },
+        {
+          "file": "org/apps/shell/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "org/apps/shell/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "org/apps/shell/src/test-setup.ts",
+          "hash": "12935735732682149507"
+        },
+        {
+          "file": "org/apps/shell/tsconfig.app.json",
+          "hash": "5386264761485847892"
+        },
+        {
+          "file": "org/apps/shell/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "org/apps/shell/tsconfig.json",
+          "hash": "13754717195043702669"
+        },
+        {
+          "file": "org/apps/shell/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        },
+        {
+          "file": "org/apps/shell/webpack.config.ts",
+          "hash": "10789847597390445031"
+        },
+        {
+          "file": "org/apps/shell/webpack.prod.config.ts",
+          "hash": "4942951824918229739"
+        }
+      ],
+      "shell-e2e": [
+        {
+          "file": "org/apps/shell-e2e/eslint.config.js",
+          "hash": "4703616457710285801"
+        },
+        {
+          "file": "org/apps/shell-e2e/playwright.config.ts",
+          "hash": "16744271331904612796"
+        },
+        {
+          "file": "org/apps/shell-e2e/project.json",
+          "hash": "6821744951995925016"
+        },
+        {
+          "file": "org/apps/shell-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "org/apps/shell-e2e/tsconfig.json",
+          "hash": "18231654798499725131"
+        }
+      ],
+      "mini-angular": [
+        {
+          "file": "org/apps/mini-angular/eslint.config.js",
+          "hash": "12883900717377691005"
+        },
+        {
+          "file": "org/apps/mini-angular/jest.config.ts",
+          "hash": "16293866587769654595"
+        },
+        {
+          "file": "org/apps/mini-angular/module-federation.config.ts",
+          "hash": "5591745435156799541"
+        },
+        {
+          "file": "org/apps/mini-angular/project.json",
+          "hash": "5731846389261092921"
+        },
+        {
+          "file": "org/apps/mini-angular/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "org/apps/mini-angular/src/app/app.config.ts",
+          "hash": "6137170128205633588"
+        },
+        {
+          "file": "org/apps/mini-angular/src/app/app.routes.ts",
+          "hash": "6185150965714414910"
+        },
+        {
+          "file": "org/apps/mini-angular/src/app/remote-entry/entry.component.ts",
+          "hash": "10683655490705159632"
+        },
+        {
+          "file": "org/apps/mini-angular/src/app/remote-entry/entry.routes.ts",
+          "hash": "16648512203766247458"
+        },
+        {
+          "file": "org/apps/mini-angular/src/app/remote-entry/nx-welcome.component.ts",
+          "hash": "13972323702080946158"
+        },
+        {
+          "file": "org/apps/mini-angular/src/bootstrap.ts",
+          "hash": "12142800989361461718"
+        },
+        {
+          "file": "org/apps/mini-angular/src/index.html",
+          "hash": "14260730805253585411"
+        },
+        {
+          "file": "org/apps/mini-angular/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "org/apps/mini-angular/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "org/apps/mini-angular/src/test-setup.ts",
+          "hash": "12935735732682149507"
+        },
+        {
+          "file": "org/apps/mini-angular/tsconfig.app.json",
+          "hash": "7822144734277415584"
+        },
+        {
+          "file": "org/apps/mini-angular/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "org/apps/mini-angular/tsconfig.json",
+          "hash": "13754717195043702669"
+        },
+        {
+          "file": "org/apps/mini-angular/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        },
+        {
+          "file": "org/apps/mini-angular/webpack.config.ts",
+          "hash": "10789847597390445031"
+        },
+        {
+          "file": "org/apps/mini-angular/webpack.prod.config.ts",
+          "hash": "4942951824918229739"
+        }
+      ],
+      "mini-react-e2e": [
+        {
+          "file": "org/apps/mini-react-e2e/eslint.config.js",
+          "hash": "4703616457710285801"
+        },
+        {
+          "file": "org/apps/mini-react-e2e/playwright.config.ts",
+          "hash": "1759690574483372841"
+        },
+        {
+          "file": "org/apps/mini-react-e2e/project.json",
+          "hash": "2777454970661893481"
+        },
+        {
+          "file": "org/apps/mini-react-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "org/apps/mini-react-e2e/tsconfig.json",
+          "hash": "18107275616570252607"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitattributes",
+        "hash": "13194702717607086212"
+      },
+      {
+        "file": "README.md",
+        "hash": "18426268600866036551"
+      },
+      {
+        "file": "org/.editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "org/.gitignore",
+        "hash": "16399683567307215337"
+      },
+      {
+        "file": "org/.prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": "org/.prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "org/.vscode/extensions.json",
+        "hash": "17425123947026961272"
+      },
+      {
+        "file": "org/README.md",
+        "hash": "1083861497644360052"
+      },
+      {
+        "file": "org/eslint.config.js",
+        "hash": "2478217381773231556"
+      },
+      {
+        "file": "org/jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "org/jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "org/nx.json",
+        "hash": "1068134951266589710"
+      },
+      {
+        "file": "org/package-lock.json",
+        "hash": "3220428352877500473"
+      },
+      {
+        "file": "org/package.json",
+        "hash": "9696134001228985575"
+      },
+      {
+        "file": "org/tsconfig.base.json",
+        "hash": "1713074558610198976"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6018463177975892828"
+      },
+      {
+        "file": "package.json",
+        "hash": "17918073948174909062"
+      }
+    ]
+  }
+}

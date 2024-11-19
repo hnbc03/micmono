@@ -1,9 +1,18 @@
-import { NxWelcomeComponent } from './nx-welcome.component';
-import { Route } from '@angular/router';
+import { Routes } from '@angular/router';
+import { AngularWrapperComponent } from './AngularWrapperComponent/angular-wrapper.component';
+import { ReactWrapperComponent } from './ReactWrapperComponent/react-wrapper.component';
 
-export const appRoutes: Route[] = [
+export const appRoutes: Routes = [
+  // {
+  //   path: 'mini-angular',
+  //   component: AngularWrapperComponent,
+  // },
   {
-    path: '',
-    component: NxWelcomeComponent,
+    path: 'mini-react',
+    loadComponent: () => import('./ReactWrapperComponent/react-wrapper.component').then(m => m.ReactWrapperComponent),
   },
+  {
+    path: '**',
+    redirectTo: '',
+  }
 ];
