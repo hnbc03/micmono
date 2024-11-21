@@ -1,0 +1,23 @@
+[NX Daemon Server] - 2024-11-21T03:29:23.655Z - Started listening on: \\.\pipe\nx\C:\Users\LENOVO\AppData\Local\Temp\5a9c8feebd86282733de\d.sock
+[NX Daemon Server] - 2024-11-21T03:29:23.661Z - [WATCHER]: Subscribed to changes within: E:\Workspace\micmono\micmono (native)
+[NX Daemon Server] - 2024-11-21T03:29:23.662Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-21T03:29:23.663Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-21T03:29:23.665Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-21T03:29:23.666Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-21T03:29:23.720Z - Error detected when recomputing project file map: The "request" argument must be of type string. Received an instance of Object
+[NX Daemon Server] - 2024-11-21T03:29:23.721Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. The "request" argument must be of type string. Received an instance of Object
+TypeError [ERR_INVALID_ARG_TYPE]: The "request" argument must be of type string. Received an instance of Object
+    at Function.resolve (node:internal/modules/helpers:189:5)
+    at getPluginPathAndName (E:\Workspace\micmono\micmono\node_modules\nx\src\utils\nx-plugin.js:32:30)
+    at loadNxPluginAsync (E:\Workspace\micmono\micmono\node_modules\nx\src\utils\nx-plugin.js:70:32)
+    at loadNxPlugins (E:\Workspace\micmono\micmono\node_modules\nx\src\utils\nx-plugin.js:124:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (E:\Workspace\micmono\micmono\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:56:21)
+    at async processCollectedUpdatedAndDeletedFiles (E:\Workspace\micmono\micmono\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:129:34)
+    at async processFilesAndCreateAndSerializeProjectGraph (E:\Workspace\micmono\micmono\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:165:17)
+    at async getCachedSerializedProjectGraphPromise (E:\Workspace\micmono\micmono\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:44:16)
+    at async handleRequestProjectGraph (E:\Workspace\micmono\micmono\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[NX Daemon Server] - 2024-11-21T03:29:23.723Z - Time taken for 'hash changed files from watcher' 22.52000000000001ms
+[NX Daemon Server] - 2024-11-21T03:29:23.723Z - Done responding to the client null
