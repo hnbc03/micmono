@@ -9,9 +9,9 @@ import { distinctUntilChanged } from 'rxjs/operators';
   imports: [CommonModule, RouterModule],
   selector: 'micmono-root',
   template: `
-    <div class="dashboard-nav">Admin Dashboard</div>
-    <div *ngIf="isLoggedIn$ | async; else signIn">
-      You are authenticated so you can see this content.
+    <h1 class="dashboard-nav" style="color: brown; margin-left: 30px">Dashboard</h1>
+    <div *ngIf="isLoggedIn$ | async; else signIn" style="color: brown; margin-left: 30px; font-weight: bold">
+      Bạn đã đăng nhập, vì thế bạn nhìn thấy dòng chữ này.
     </div>
     <ng-template #signIn><router-outlet></router-outlet></ng-template>
   `,
